@@ -33,10 +33,11 @@ npm install
 
 ```
 
-step 7:
+step 8:
 
 ```
 npm start
+
 ```
 
 ## run the docker
