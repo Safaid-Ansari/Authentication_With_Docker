@@ -35,7 +35,7 @@ npm install
 
 step 8:
 
-```
+```ruby
 npm start
 
 ```
