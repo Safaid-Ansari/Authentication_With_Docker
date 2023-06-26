@@ -1,12 +1,9 @@
 const mongoose = require("mongoose");
-
-mongoose.connect(
-  "mongodb://localhost/Authentication_System_With_DOCKER",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+const mongo_uri = process.env.MONGO_URI;
+mongoose.connect(mongo_uri, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 const db = mongoose.connection;
 
